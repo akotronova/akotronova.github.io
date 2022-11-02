@@ -1,0 +1,404 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #15202B;
+    color: white;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25vw;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    margin-top: 60px;
+}
+
+.mainHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    left: 25vw;
+    width: 75vw;
+    height: 60px;
+    background: rgba(21, 32, 43, 0.9);
+}
+
+.mainHeaderRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 45vw;
+    min-width: 45vw;
+    height: 60px;
+    border-left: solid 1px #555555;
+    border-right: solid 1px #555555;
+    cursor: pointer;
+}
+
+.mainHeaderTitle {
+    display: flex;
+    align-self: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.mainHeaderIcon {
+    display: flex;
+    margin-right: 1rem;
+    padding: 6px;
+    border-radius: 50px;
+}
+
+.mainHeaderIcon:hover {
+    background-color: #2B3640;
+}
+
+.mainHeaderSearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0px 30px;
+    background-color: #273340;
+    height: 50px;
+    width: 300px;
+    border-radius: 50px;
+}
+
+.searchBox {
+    display: flex;
+    height: 30px;
+    border-radius: 20px;
+    padding: 0px 10px;
+    align-items: center;
+    color: white;
+    background: #273340;
+    border: transparent;
+}
+
+.searchBox:focus {
+    border: transparent;
+}
+
+header {
+    display: flex;
+    width: 25vw;
+    height: 100vh;
+    position: fixed;
+    border-right: solid 1px #555555;
+}
+
+.headerMargin {
+    display: flex;
+    width: 5vw;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 100vh;
+}
+
+.navRow {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.navBox {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0px 1rem;
+    cursor: pointer;
+}
+
+.navBox:hover {
+    background-color: #2D3741;
+}
+
+.navIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.navIcon:hover {
+    background-color: #162D40;
+}
+
+.navText {
+    display: flex;
+    align-self: center;
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+}
+
+.navTextCurrent {
+    display: flex;
+    align-self: center;
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+    font-weight: bold;
+}
+
+.navRowIcon {
+    display: flex;
+    align-self: center;
+}
+
+.navRowButton {
+    display: flex;
+    height: 50px;
+    margin: 10px 0px;
+}
+
+.navButton {
+    background-color: #1D9BF0;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 16vw;
+    border: transparent;
+}
+
+.navButtonText {
+    display: flex;
+    color: white;
+    align-self: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.navButton:hover {
+    background-color: #1A8CD8;
+}
+
+.headerProfile {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+    width: 17rem;
+    border-radius: 35px;
+    position: absolute;
+    left: 3.5rem;
+    bottom: 1rem;
+    cursor: pointer;
+    padding: 10px 0px;
+    background-color: #15202B;
+}
+
+.headerProfile:hover {
+    background-color: #2D3741;
+}
+
+.profileIcon {
+    display: flex;
+    border-radius: 50px;
+    border: transparent;
+}
+
+.profileRow {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.profileColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.profileName {
+    font-weight: bold;
+}
+
+.profileNick {
+    color: #aaaaaa;
+}
+
+.profileMore {
+    display: flex;
+    align-self: center;
+}
+
+.side {
+    display: flex;
+    flex-direction: column; 
+    height: 150vw;
+    border-left: solid 1px #555555;
+}
+
+.trendsBox {
+    display: block;
+    flex-direction: column;
+    width: 300px;
+    background-color: #1E2732;
+    border-radius: 20px;
+    margin: 10px 30px;
+}
+
+.trendsTitle {
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.trend {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.trend:hover {
+    background-color: #252E38;
+}
+
+.trendInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.trendTitle {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.trendText {
+    display: flex;
+    font-size: 14px;
+    color: gray;
+}
+
+.trendMore {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.trendMore:hover {
+    background-color: #24394B;
+}
+
+.flow {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    height: 100vw;
+    border-right: 1px solid transparent;
+}
+
+.flowBox {
+    display: flex;
+    border-bottom: solid 1px #555555;
+    min-height: 5rem;
+}
+
+.newTweet {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.newTweetInput {
+    display: flex;
+    color: white;
+    background-color: #15202B;
+    height: 30px;
+    font-size: 20px;
+    border: transparent;
+    margin: 10px;
+}
+
+.newTweetProfile {
+    display: flex;
+    margin: 0px 10px;
+}
+
+.newTweetRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0px;
+    width: 32rem;
+    align-items: center;
+}
+
+.newTweetColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.newTweetIcon {
+    display: flex;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.newTweetIcon:hover {
+    background-color: #2B3640;
+}
+
+.tweetButton {
+    display: flex;
+    border: transparent;
+    background-color: #1D9BF0;
+    color: white;
+    height: 2.3rem;
+    width: 5rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.tweetButton:hover {
+    background-color: #1A8CD8;
+}
+
+.tweetButtonText {
+    font-weight: bold;
+}
