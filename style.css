@@ -332,6 +332,7 @@ nav {
 
 .flowBox {
     display: flex;
+    align-items: center;
     border-bottom: solid 1px #555555;
     min-height: 5rem;
 }
@@ -401,4 +402,19 @@ nav {
 
 .tweetButtonText {
     font-weight: bold;
+}
+
+.flowBoxCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px #555555;
+    min-height: 5rem;
+}
+
+.mailchimp {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: border;
+    color: white;
 }
